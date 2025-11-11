@@ -188,9 +188,9 @@ int main()
 	lst.Del();
 	lst.Del();
 	lst.Print();
-	lst.AddByPos(15, 8);
+	lst.AddByPos(15, 1);
 	lst.Print();
-	lst.AddByPos(67, 5);
+	lst.AddByPos(67, 3);
 	lst.Print();
 	cout << lst.GetCount() << "\n" << endl;
 	cout << lst.Search(52) << "\n" <<  endl;
